@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> wheaton_markets.num_rows == 2
+          >>> berkeley_markets.num_rows == 2
           True
           """,
           'hidden': False,

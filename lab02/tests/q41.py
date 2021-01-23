@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> above_eight.num_rows == 20
+          >>> above_eight.num_rows == 43
           True
           """,
           'hidden': False,

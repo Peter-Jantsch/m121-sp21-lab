@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> proportion_in_20th_century == 0.684
+          >>> proportion_in_20th_century == 0.544
           True
           """,
           'hidden': False,
@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> proportion_in_21st_century == 0.316
+          >>> proportion_in_21st_century == 0.456
           True
           """,
           'hidden': False,
