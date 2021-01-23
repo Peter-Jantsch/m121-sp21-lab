@@ -25,8 +25,8 @@ test = {
           >>> # Make sure your columns are in the right order!;
           >>> # First column should be 'Title', second column should be 'Rating';
           >>> print(above_eight.sort(0).take([19]))
-          Title         | Rating
-          Interstellar  | 8.6
+          Title        | Rating
+          Interstellar | 8.6
           """,
           'hidden': False,
           'locked': False
