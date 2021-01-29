@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> above_eight.num_rows == 43
+          >>> above_eight.num_rows == 27
           True
           """,
           'hidden': False,
@@ -24,9 +24,9 @@ test = {
           'code': r"""
           >>> # Make sure your columns are in the right order!;
           >>> # First column should be 'Title', second column should be 'Rating';
-          >>> print(above_eight.sort(0).take([19]))
-          Title        | Rating
-          Interstellar | 8.6
+          >>> print(above_eight.sort(0).take([18]))
+          Title              | Rating
+          Mad Max: Fury Road | 8.1
           """,
           'hidden': False,
           'locked': False
