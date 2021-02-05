@@ -8,8 +8,7 @@ test = {
           'code': r"""
           >>> # Oops, your name is assigned to the wrong data type!;
           >>> import numpy as np;
-          >>> type(year_population_crossed_6_billion) == int or type(year_population_crossed_6_billion) == np.int32 or
-              type(year_population_crossed_6_billion) == np.int64
+          >>> type(year_population_crossed_6_billion) == int or type(year_population_crossed_6_billion) == np.int32
           True
           """,
           'hidden': False,
