@@ -1,6 +1,6 @@
 {
   "name": "Functions and Visualizations",
-  "endpoint": "cal/data8/fa20/lab04",
+  "endpoint": "wheaton/m121/sp21/lab04",
   "src": [
     "lab04.ipynb"
   ],
