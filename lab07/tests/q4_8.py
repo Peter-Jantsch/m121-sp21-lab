@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> reject_null in make_array(True, False)
+          >>> len(differences) == 100
           True
           """,
           'hidden': False,
